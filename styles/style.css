@@ -63,3 +63,55 @@ h3 {}
 main {
     margin-top: 100px;
 }
+
+footer {
+    background-color: bisque;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.footer__contacts {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    .footer__social > a {
+        display: block;
+        max-height: 30px;
+        padding: 3px 7px;
+        background-color: #cccccc;
+        border: 2px solid #fff;
+    }
+
+    a > img {
+        width: 30px;
+    }
+}
+
+.footer__info {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5px 7px;
+}
+
+.footer__line {
+    background: #cccccc;
+    width: 1200px;
+    height: 2px;
+    margin: 0 auto;
+
+}
+
+.footer__author {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
